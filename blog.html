@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewpoint" content="with=device-width, initial-scale=1.0">
+    <title>MinSkin</title> 
+    <link rel="stylesheet" href="stylems.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Belleza&family=Playfair+Display&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="MinSkin.html"><img src="MinSkin.svg" width="150" height="150"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="MinSkin.html">NASLOVNICA</a></li>
+                    <li><a href="onama.html">O NAMA</a></li>
+                    <li><a href="proizvodi.html">PROIZVODI</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="kontakt.html">KONTAKT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>BLOG</h1>     
+    </section>
+
+<!--blog page content-->
+
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+        <img src="allskin.png">
+        <h2>Prirodna Kozmetika: Izbor za Vašu Kožu i Planet</h2>
+        <p>
+            Prirodna kozmetika ima poseban čar jer se oslanja na moć 
+            prirode da pruži rješenja za vašu kožu bez štetnih kemikalija i agresivnih tretmana. 
+            </p>
+            <br>
+            <p> Naš cilj je da vam pomognemo da se osjećate samouvjereno u 
+                svojoj koži i da postignete prirodan sjaj koji dolazi iznutra. 
+                Zato redovno pratite naš blog i zajedno ćemo istraživati puteve ka 
+                prirodnoj ljepoti i zdravlju.
+                Prirodna kozmetika ne samo da osigurava blistavu kožu, već i čuva 
+                prirodne resurse i smanjuje štetu okolišu. Otkrit ćemo zašto je važno uzeti u 
+                obzir ekološke aspekte u njezi kože i kako odabrati proizvode koji su održivi i
+                 prijateljski nastrojeni prema planetu.</p>
+                <br>
+                <p>Također ćemo razgovarati o održivom pakiranju i kako smanjiti otpad od 
+                    kozmetičkih proizvoda. Podijelit ćemo savjete o recikliranju i ponovnoj 
+                    upotrebi ambalaže, kao io tome kako podržati brendove koji su predani 
+                    zaštiti prirode.
+                    Osim toga, istražit ćemo etička testiranja na životinjama i kako 
+                    prepoznati robne marke koje se zalažu za proizvode bez okrutnosti. 
+                    Vaša ljepota ne smije doći na štetu drugih života.
+                    Zajedno, možemo otkriti tajne prirodne ljepote i 
+                    stvoriti harmoniju između vas i prirode.</p>
+    </div>
+        <div class="blog-right"></div>
+    </div>
+
+</section>
+        
+<!--------JavaScript dio------->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+
+</script>
+
+
+<!--footer-->
+
+<section class="footer">
+    <h4>MinSKin</h4>
+    <p>MinSkin na tržište stavlja proizvode od 100% prirodnih sastojaka. 
+        Našim proizvodima se rješavaju mnogi kožni problemi od akni pa do dubokih bora i ožiljaka</p>
+    <div class="icons">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-tiktok"></i>
+        <i class="fa-brands fa-instagram"></i>
+    </div>
+    <p>S <i class="fa-regular fa-heart"></i> prema prirodi.</p>
+
+
+
+
+</section>
+
+</body>
+
+</html>

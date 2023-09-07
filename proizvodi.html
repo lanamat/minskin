@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewpoint" content="with=device-width, initial-scale=1.0">
+    <title>MinSkin</title> 
+    <link rel="stylesheet" href="stylems.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Belleza&family=Playfair+Display&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="MinSkin.html"><img src="MinSkin.svg" width="150" height="150" ></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="MinSkin.html">NASLOVNICA</a></li>
+                    <li><a href="onama.html">O NAMA</a></li>
+                    <li><a href="proizvodi.html">PROIZVODI</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="kontakt.html">KONTAKT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>PROIZVODI</h1>     
+    </section>
+
+    <section class="proizvodi">
+
+        <h1>Upoznajte naše proizvode!</h1>
+        <p>Svi proizvodi se sastoje od naših glavnih sastojaka: lavande,
+            ružmarina i aloe vere.
+        </p>
+
+        <div class="row">
+            <div class="proizvodi-col">
+                <img src="cleanser.png">
+                <h3>Čistač</h3>
+                <p>Nježni čistač gel teksture za uklanjanje svih nečistoća s lica.</p>
+            </div>
+            <div class="proizvodi-col">
+                <img src="serum.png">
+                <h3>Serum</h3>
+                <p>Umirujući serum za lice, vrat i dekolte.</p>
+            </div>
+            <div class="proizvodi-col">
+                <img src="krema.png">
+                <h3>Krema</h3>
+                <p>Krema lagane svilenkaste teksture njeguje koži i štiti od UV zraka uz SPF 50++.</p>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+        
+<!--------JavaScript dio------->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+
+</script>
+
+
+<!--footer-->
+
+<section class="footer">
+    <h4>MinSkin</h4>
+    <p>MinSkin na tržište stavlja proizvode od 100% prirodnih sastojaka. 
+        Našim proizvodima se rješavaju mnogi kožni problemi od akni pa do dubokih bora i ožiljaka</p>
+    <div class="icons">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-tiktok"></i>
+        <i class="fa-brands fa-instagram"></i>
+    </div>
+    <p>S <i class="fa-regular fa-heart"></i> prema prirodi.</p>
+
+
+
+
+</section>
+
+</body>
+
+</html>

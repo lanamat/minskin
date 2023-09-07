@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewpoint" content="with=device-width, initial-scale=1.0">
+    <title>MinSkin</title> 
+    <link rel="stylesheet" href="stylems.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Belleza&family=Playfair+Display&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="MinSkin.html"><img src="MinSkin.svg" width="150" height="150"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="MinSkin.html">NASLOVNICA</a></li>
+                    <li><a href="onama.html">O NAMA</a></li>
+                    <li><a href="proizvodi.html">PROIZVODI</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="kontakt.html">KONTAKT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>O NAMA</h1>
+ 
+        
+    </section>
+    
+
+</script>
+<!---o nama sadrzaj--->
+
+<section class="o-nama">
+
+    <div class="row">
+        <div class="onama-col">
+            <h1>O našem brendu</h1>
+            <p>Naša priča počinje iz dubokog uvjerenja da priroda nosi odgovore na pitanje 
+                brige o vašoj koži. MinSkin stvoren je iz ljubavi prema prirodi i želje da 
+                podijelimo njene darove s vama. <br>
+                Naša misija je jednostavna: stvarati visokokvalitetne proizvode za njegu kože 
+                koristeći samo najčistije i najefikasnije sastojke iz prirode.<br>
+                bez štetnih kemikalija, bez testiranja na životinjama, samo čista i prirodna ljepota.<br>
+                Hvala vam što ste dio naše priče o prirodnoj ljepoti. Pridružite nam se 
+                u očuvanju vaše ljepote i blagostanja na najprirodniji način.<br>
+                Vaša ljepota.<br>
+                Naša strast.
+            </p>
+                <a href="" class="button button2">Explore now valjda</a>
+        </div>
+        <div class="onama-col">
+            <img src="skinpic.png">
+        </div>
+    </div>
+</section>
+
+<section>
+
+
+    <video controls>
+        <source src="MinSkin.mp4" type="video/mp4">
+    </video>
+
+</section>
+
+
+
+
+
+
+<!--------JavaScript dio------->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+
+<!--footer-->
+
+<section class="footer">
+    <h4>MinSkin</h4>
+    <p>MinSkin na tržište stavlja proizvode od 100% prirodnih sastojaka. 
+        Našim proizvodima se rješavaju mnogi kožni problemi od akni pa do dubokih bora i ožiljaka</p>
+    <div class="icons">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-tiktok"></i>
+        <i class="fa-brands fa-instagram"></i>
+    </div>
+    <p>S <i class="fa-regular fa-heart"></i> prema prirodi.</p>
+
+
+
+
+</section>
+
+</body>
+
+</html>

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewpoint" content="with=device-width, initial-scale=1.0">
+    <title>MinSkin</title> 
+    <link rel="stylesheet" href="stylems.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Belleza&family=Playfair+Display&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="MinSkin.html"><img src="MinSkin.svg" width="150" height="150" ></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="MinSkin.html">NASLOVNICA</a></li>
+                    <li><a href="onama.html">O NAMA</a></li>
+                    <li><a href="proizvodi.html">PROIZVODI</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="kontakt.html">KONTAKT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>100% PRIRODNI SASTOJCI</h1>
+            <p>MinSkin proizvodi napravljeni su od 100% prirodnih sastojaka. 
+            Bez štetnih alkohola i mirisa. </p>
+            <a href="proizvodi.html" class="button">ISTRAŽI PROIZVODE</a>
+        </div>
+    </section>
+
+<!-----sastojci----->
+<section class="sastojci">
+    <h1>INOVATIVNI SASTOJCI</h1>
+    <p>Ovi sastojci su 100% prirodni i 100% učikoviti.<br>
+        Tri sastojka koja se nalaze u našim proizvodima su:
+    </p>
+
+<div class="row">
+    <div class="sastojci-col">
+        <h3>Lavanda</h3>
+        <p>Lavanda je poznata po svojim brojnim prednostima za kožu, 
+            uključujući umirujuće i antiinflamatorna svojstva koja pomažu u 
+            smirivanju iritacija i očuvanju zdravlja kože.</p>
+    </div>
+    <div class="sastojci-col">
+        <h3>Ružmarin</h3>
+        <p>Ružmarin ima prirodna antioksidativna svojstva koja mogu pomoći 
+            u zaštiti kože od slobodnih radikala i doprineti njenom zdravlju i sjaju.</p>
+    </div>
+    <div class="sastojci-col">
+        <h3>Aloe vera</h3>
+        <p>Aloe vera je poznata po svojim hidratantnim i umirujućim svojstvima 
+            koja pomažu ublažiti iritacije, hidrirati kožu i doprinjeti njenom zdravom izgledu.</p>
+    </div>
+
+</div>
+
+</section>
+
+
+
+
+    
+<!--------JavaScript dio------->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+
+</script>
+
+<!--recenzije kupaca-->
+
+<section class="recenzije">
+    <h1>Recenzije naših kupaca</h1>
+    <p>Ovo su mišljenja naših kupaca o MinSkin proizovdima.</p>
+
+    <div class="row">
+        <div class="recenzije-col">
+            <img src="profilnarecenzije.png">
+        
+       <div> <p>Nakon samo tjedan dana moje akne su se povukle i većina ožiljaka od akni je nestalo. 
+                Koristila sam serum i kremu koje su se pokazale veoma učinkovite.
+       </p>
+        <h3>Dina Dunjić</h3>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+    </div>
+    </div>
+    <div class="recenzije-col">
+        <img src="profilnarecenzije.png">
+    
+   <div> <p>Kupila sam sva tri MinSkin proizvoda i zadovoljna sam s njima. 
+    Koža izgleda blistavo i zdravo. Jedina mala zamjerka je veličina proizvoda.</p>
+    <h3>Višnja Kosić</h3>
+    <i class="fa-solid fa-star"></i>
+    <i class="fa-solid fa-star"></i>
+    <i class="fa-solid fa-star"></i>
+    <i class="fa-solid fa-star"></i>
+    <i class="fa-regular fa-star-half-stroke"></i>
+</div>
+</div>
+</div>
+
+</section>
+
+<!--footer-->
+
+<section class="footer">
+    <h4>MinSkin</h4>
+    <p>MinSkin na tržište stavlja proizvode od 100% prirodnih sastojaka. 
+        Našim proizvodima se rješavaju mnogi kožni problemi od akni pa do dubokih bora i ožiljaka</p>
+    <div class="icons">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-tiktok"></i>
+        <i class="fa-brands fa-instagram"></i>
+    </div>
+    <p>S <i class="fa-regular fa-heart"></i> prema prirodi.</p>
+
+
+
+
+</section>
+
+</body>
+
+</html>
